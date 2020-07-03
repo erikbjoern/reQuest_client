@@ -1,0 +1,50 @@
+{
+  "request": {
+    "id": 8,
+    "title": "Im in prison",
+    "description": "I need help to get out!",
+    "reward": 250,
+    "status": "completed",
+    "offers": [
+      {
+        "id": 36,
+        "email": "offerer666@mail.com",
+        "status": "accepted",
+        "conversation": {
+          "messages": [
+            {
+              "me": false,
+              "content": "I have a saw, I'm fast"
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "email": "anotherhelper@mail.com",
+        "status": "declined",
+        "conversation": {
+          "messages": [
+            {
+              "me": false,
+              "content": "I too digg a tunnel"
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "email": "yetanotherhelper@mail.com",
+        "status": "pending",
+        "conversation": {
+          "messages": [
+            {
+              "me": false,
+              "content": "Im here too, we can get out together"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "request": {
+    "id": 1,
+    "title": "Change to winter tires",
+    "description": "One of the wheels came off and I'm not a handy person. You might need some wrench or something as well. Will tip quick fixer.",
+    "reward": 100,
+    "status":"pending",
+    "offers": [
+      {
+        "id": 1,
+        "email": "helper@mail.com",
+        "status": "pending",
+        "conversation": {
+          "messages": [
+            { 
+              "me": false,
+              "content": "Hi! I'd love to help you with your wheel-chair and I have the tools needed. Although I think 140p would be better. Deal? When can I come // Benedict "
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "email": "betterHelper@mail.com",
+        "status": "pending",
+        "conversation": {
+          "messages": [
+            { 
+              "me": false,
+              "content": "Im the lejoin, Im the king in Sweden, can do anything. I dont need the tip, im so rich.I'll arrive fast in my lambo. Later, Ibrahimovich"
+            }
+          ]
+        }
+      },
+      {
+        "id":3,
+        "email": "superHelper@mail.com",
+        "status": "pending",
+        "conversation": {
+          "messages": [
+            { 
+              "me": false,
+              "content": "Im so handy. I have been handy my hole carrerier. I can do anything with silver tejp. Ready when you have time. // MacGyver"
+            }
+          ]
+        }
+    }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{ 
+  "offer": {
+    "id": 1,
+    "request_id": 1,
+    "message": "I can help you with this",
+    "helper": {
+      "id": 1,
+      "email": "helper@mail.com"
+    }
+  }
+}

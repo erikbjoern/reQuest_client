@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "data": {
+    "id": 1,
+    "role": "user",
+    "email": "user@mail.com",
+    "provider": "email",
+    "uid": "user@mail.com",
+    "allow_password_change": false
+  }
+}

@@ -1,0 +1,403 @@
+/* WHOLE SITE */
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap");
+
+body,
+html {
+  background-color: #bac1bf !important;
+  z-index: -2;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  font-family: "Lora", serif !important;
+}
+
+.input-labels {
+  letter-spacing: 0.1em;
+  color: whitesmoke;
+}
+
+#page-container {
+  margin-top: 200px;
+  display: flex;
+  padding: 0px 50px;
+  width: 100vw;
+  position: absolute;
+}
+
+#page-container h2 {
+  position: absolute;
+  margin-top: -30px;
+  color: #88a65e;
+  font-size: 185%;
+  text-align: center;
+}
+
+#qcard {
+  overflow: hidden;
+}
+#categories{
+  font-family: "Lora", serif;
+  font-size: 24px;
+  color: white;
+  background-color: #88a65e;
+  height: fit-content;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+#categories a {
+    color: white;
+}
+.active {
+  color: #e8b704;
+}
+/* HEADER */
+#header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  font-family: "Lora", serif !important;
+  background: #e6e6e6;
+}
+
+#logo {
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+  font-size: 56px;
+  z-index: 2;
+}
+
+#hfirst {
+  color: #88a65e;
+}
+
+#hsecond {
+  color: #e8b704;
+}
+
+#yellow_divider {
+  position: absolute;
+  left: 100px;
+  bottom: -23px;
+  height: 5px;
+  width: 6000px;
+  background-color: #e8b704;
+}
+
+#green_divider {
+  position: absolute;
+  left: -50px;
+  bottom: -30px;
+  height: 10px;
+  width: 6000px;
+  background-color: #88a65e;
+  z-index: -1;
+}
+
+/* NAVBAR */
+#links {
+  position: absolute;
+  right: 30px;
+  top: 70px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: calc(95vw - 300px);
+}
+
+#small_links a {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #e8b704;
+  font-size: 20px;
+}
+
+#small_links a:hover {
+  background-color: #e8b70444;
+  color: whitesmoke;
+}
+
+#myrequest-home-link {
+  margin-top: -10px;
+  color: #e8b704;
+  font-size: 35px;
+}
+
+#myrequest-home-link:hover {
+  transform: scale(1.1);
+  color: #fec804;
+}
+
+#welcome-and-logout {
+  position: absolute;
+  top: 130px;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+#welcome-and-logout > * {
+  font-family: "Lora", serif;
+  margin: 0 20px;
+}
+
+#points-display {
+  height: 50px;
+  width: 50px;
+  background-color: #e8b704;
+  border-radius: 50%;
+  margin: -30px 0;
+}
+#karma-points-amount {
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-family: "Lora", serif;
+}
+
+/* FORMS */
+.form-container {
+  padding: 20px 0;
+  width: 25vw !important;
+  border-radius: 4%;
+  text-align: center;
+  background-color: #88a65e;
+}
+
+#login-form,
+#signup-form,
+#newRequest-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#submit-btn {
+  background-color: #e8b704;
+  color: white;
+  font-family: "Lora", serif;
+  border-radius: 5px;
+  margin: 5px;
+  width: 100px !important;
+  letter-spacing: 0.1em;
+  text-align: center;
+  cursor: pointer;
+}
+
+input,
+textarea {
+  font-family: "Lora", serif;
+  border-radius: 5px;
+  border-color: #88a65e;
+  background-color: #e6e6e6;
+  color: #88a65e;
+  margin-bottom: 10px;
+  width: 20vw !important;
+}
+
+textarea {
+  height: 130px;
+}
+
+#signup {
+  height: fit-content;
+  color: white;
+}
+
+#signup:hover {
+  color: #e8b704;
+}
+
+#message {
+  color: rgb(230, 230, 230);
+}
+
+/* HOME PAGE - BROWSE REQUESTS */
+
+#list-wrapper {
+  overflow: auto;
+  height: calc(90vh - 178px);
+}
+
+#qcards > * {
+  height: "initial";
+}
+
+#specific-component {
+  background-color: lightgray;
+  border: 3px #88a65e solid;
+  padding: 4px;
+  height: calc(85vh - 178px);
+  position: relative;
+}
+#message-component {
+  background-color: lightgray;
+  border: 3px #88a65e solid;
+  padding: 4px;
+  height: calc(55vh - 178px);
+  position: relative;
+}
+#message-component-send {
+  background-color: lightgray;
+  border: 3px #88a65e solid;
+  padding: 4px;
+  height: calc(60vh - 178px);
+  position: relative;
+}
+
+#about-request {
+  font-size: 110%;
+  overflow: auto;
+  height: 100%;
+  overflow: auto;
+}
+
+#about-request h3 {
+  color: #88a65e;
+}
+
+#description-wrapper {
+  overflow: auto;
+  height: calc((75vh - 178px) / 2);
+  font-size: 80%;
+}
+
+#selected-request,
+#message-container {
+  font-size: 130%;
+  color: #606060;
+  padding: 7px;
+}
+
+#offerMessage {
+  font-size: 90%;
+  color: #606060;
+  padding: 10px;
+}
+#send-message-form {
+  padding: 10px;
+  padding-top: 7px;
+}
+#contact-button,
+#disabled-contact-button,
+#message-send-btn {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  color: white;
+  background-color: #88a65e;
+  font-weight: 700;
+  font-size: 100%;
+}
+
+#disabled-contact-button {
+  background-color: #bac1bf;
+}
+
+#selected-title,
+#createOffer-label {
+  font-weight: 700;
+}
+
+#selected-reward {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  background-color: #e8b704;
+  border: 6px solid transparent;
+  color: white;
+  font-weight: 700;
+}
+
+/* MYREQUEST PAGES */
+#menu-container {
+  display: flex;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+}
+
+#vertical-line {
+  height: 100%;
+  width: 5px;
+  background-color: #88a65e;
+}
+
+#create-request {
+  color: white;
+  background-color: #88a65e;
+  font-family: "Lora", serif;
+  color: white;
+  font-weight: 700;
+  padding: 18px;
+  font-size: 150%;
+  border: 1px solid #e8b704;
+  }
+  #create-request:hover {
+  color: #e8b704;
+  }
+
+#no-requests-message {
+  color: white;
+}
+
+#pending-link,
+#active-link,
+#completed-link {
+  font-family: "Lora", serif;
+  font-size: larger;
+  text-align: center;
+  color: #88a65e;
+  margin: 0 -4px;
+  width: 170px;
+  padding: 10px 20px 10px 50px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#pending-link:hover,
+#active-link:hover,
+#completed-link:hover {
+  color: #e6e6e6;
+}
+
+#leftmost-component {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#my-list {
+  width: 250px;
+  margin-left: 20px;
+}
+
+#offers {
+  display: flex;
+  flex-direction: column;
+  color: #88a65e;
+}
+
+#offers > div {
+  margin-bottom: 30px;
+}
+
+#quest-completed,
+#quest-reply {
+  color: white;
+  background-color: #88a65e;
+}

@@ -1,0 +1,50 @@
+{
+  "request": {
+    "id": 5,
+    "title": "Fix the fixtures in the app",
+    "description": "I need help, really need help fixing the fixtures, I have the tools and all, just come and do it for me, please",
+    "reward": 150,
+    "status": "active",
+    "offers": [
+      {
+        "id": 36,
+        "email": "helper@mail.com",
+        "status": "accepted",
+        "conversation": {
+          "messages": [
+            { 
+              "me": false,
+              "content": "I can help you with this, and I'm probably the first to offer my help"
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "email": "anotherhelper@mail.com",
+        "status": "declined",
+        "conversation": {
+          "messages": [
+            { 
+              "me": false,
+              "content": "I too can give you help with this"
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "email": "yetanotherhelper@mail.com",
+        "status": "pending",
+        "conversation": {
+          "messages": [
+            { 
+              "me": false,
+              "content": "Even I can help you out with this"
+            }
+          ]
+        }
+      }
+    ]
+  }
+} 

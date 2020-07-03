@@ -1,0 +1,51 @@
+{
+  "request": {
+    "id": 2,
+    "title": "Paint fences in backyard",
+    "description": "I need help, really need help painting my fence, I have the tools and all, just come and do it for me, please",
+    "requester": "me@mail.com",
+    "reward": 150,
+    "status":"pending",
+    "offers": [
+      {
+        "id": 1,
+        "email": "helper@mail.com",
+        "status": "pending",
+        "conversation": {
+          "messages": [
+            { 
+              "me": false,
+              "content": "Hi! I'd love to help you with your wheel-chair and I have the tools needed. Although I think 140p would be better. Deal? When can I come // Benedict "
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "email": "anotherhelper@mail.com",
+        "status": "pending",
+        "conversation": {
+          "messages": [
+            { 
+              "me": false,
+              "content": "I can fix this for you in a minute"
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "email": "yetanotherhelper@mail.com",
+        "status": "pending",
+        "conversation": {
+          "messages": [
+            { 
+              "me": false,
+              "content": "I can fix this for you in a minute"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
